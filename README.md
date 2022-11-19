@@ -1,5 +1,7 @@
 # myportofolio
 
+see live version https://ibtisam34.github.io/myportofolio/
+
 In this project, I built a simple HTML portofolio. I built it using HTML, CSS, scss and JavaScript.
 
 Built With
