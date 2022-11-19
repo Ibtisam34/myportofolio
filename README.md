@@ -1,10 +1,6 @@
 # myportofolio
 
-live demo
-live
-
-
-In this project, I built a simple HTML portofolio. I built it using HTML, CSS, scss JavaScript.
+In this project, I built a simple HTML portofolio. I built it using HTML, CSS, scss and JavaScript.
 
 Built With
 html, css & javascript and scss
