@@ -50,9 +50,9 @@ In this project, I built a simple HTML portofolio.
 
 ### Key Features <a name="key-features"></a>
 
-- **[To show case my skills]**
-- **[To sell myself to recruiters]**
-
+- **[Authenicate user]**
+- **[Fetch bookings]**
+- **[Post bookings]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -64,28 +64,91 @@ In this project, I built a simple HTML portofolio.
 
 To get a local copy up and running, follow these steps.
 
+### Prerequisites
+
+In order to run this project you need:
+
+- Have ruby installed
+- Have node installed
+- Have rails installed
+
 ### Setup
 
-You can find the repo [myportfolio](https://github.com/Ibtisam34/myportfolio.git)
+You can find the React Frontend client at [React-client](https://github.com/Ibtisam34/Final-group-capstone-frontend.git)
 
 Clone this repository to your desired folder:
 
 To run and view this application, you will first have to clone a local version of this repository using:
 
-git clone https://github.com/Ibtisam34/myportfolio
+git clone https://github.com/Ibtisam34/Final-group-capstone
+
+### Install
+
+Install this project with:
+ `bundle install`
+
+### Usage
+
+- To run the project follow the instructions below:
+
+- You can find the React Frontend client at [React-client](https://github.com/Ibtisam34/Final-group-capstone-frontend)
+
+- Configure Environment file in your project by running the following command:
+
+`bundle exec figaro install`
+
+- In `config/application.yml`, add the following env keys:
+  `DEVISE_SECRET_KEY:`
+  `DB_USERNAME:`
+  `DB_PASSWORD:`
+
+- Run the command below to generate App Secret for your authentication and add as the DEVISE_SECRET_KEY in your       environment:
+  `rake secret`
+
+- Then run the following command to setup the database:
+```
+ rails db:create, rails db:migrate, rails db:seed
+```
+
+- Start a local server running the command:
+
+`rails s`
 
 
+### Run tests
+```
+To run tests, run the following command:
+rspec spec/models/doctor_spec.rb
+rspec spec/models/user_spec.rb
+```
+
+
+ -->
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
-## 👥 Author <a name="authors"></a>
+## 👥 Authors <a name="authors"></a>
 
 👤 **Falis Abdikani**
 
 - GitHub: [@ibtisam34](https://github.com/ibtisam34)
 - LinkedIn: [Falis](https://linkedin.com/in/falis-abdikani/)
 
+👤 **Joshua Blue-Jack**
+
+- GitHub: [@Tamunokuro](https://github.com/Tamunokuro)
+- LinkedIn: [Joshua Blue-Jack](https://linkedin.com/in/joshua-blue-jack/)
+
+👤 **Girma Tarekegn**
+
+- GitHub: [@Girma](https://github.com/grima336)
+- LinkedIn: [Girma_Tarekegn](https://linkedin.com/in/girma-tarekegn/)
+
+👤 **Odai**
+
+- GitHub: [@odaialazzeh](https://github.com/odaialazzeh)
+- LinkedIn: [odai alazzeh](https://github.com/odaialazzeh)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -93,7 +156,7 @@ git clone https://github.com/Ibtisam34/myportfolio
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[change the design]**
+- [ ] **[More booking options]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -103,7 +166,7 @@ git clone https://github.com/Ibtisam34/myportfolio
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Ibtisam34/myportfolio/issues).
+Feel free to check the [issues page](https://github.com/Ibtisam34/Final-group-capstone/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -118,11 +181,32 @@ Give a ⭐️ if you like this project!
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
- -Thank you microverse for guiding and showing me how I can create project by myself
+  we would like to thank:
+- Microverse for adding this project in the carriculum
+- [Murat Korkmaz](https://www.behance.net/gallery/26425031/Vespa-Responsive-Redesign) the creator of the original design.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- Kanban Board -->
+
+## Kanban Board <a name="kanban_board"></a>
+
+- [Kanban Board](https://github.com/users/Ibtisam34/projects/12)
+ 
+ <p align="right">(<a href="#readme-top">back to top</a>)</p>
+ 
+ <!-- Initial Kanban Board -->
+ 
+ ## Initial  Kanban Board <a name="Initial kanban_board"></a>
+ 
+ ![image](https://user-images.githubusercontent.com/108012550/231453155-9bdbfaea-2a2a-4d0f-8875-15887a97384f.png)
+
+- Team of 4 members
+
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
 
