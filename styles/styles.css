@@ -205,6 +205,10 @@ section {
   line-height: 2rem;
 }
 
+.btn-text {
+  color: black;
+}
+
 /*About*/
 .about-container {
   display: grid;
@@ -910,4 +914,4 @@ section {
   }
 }
 
-/*# sourceMappingURL=styles.css.map */
+
