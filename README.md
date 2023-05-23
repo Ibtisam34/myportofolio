@@ -3,7 +3,6 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 \[final-group-capstone \] ](#-final-group-capstone--)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -18,7 +17,6 @@
   - [🤝 Contributing ](#-contributing-)
   - [⭐️ Show your support ](#️-show-your-support-)
   - [🙏 Acknowledgments ](#-acknowledgments-)
-  - [Kanban Board ](#kanban-board-)
   - [📝 License ](#-license-)
 
 <!-- PROJECT DESCRIPTION -->
@@ -52,6 +50,8 @@ In this project, I built a simple HTML portofolio.
 
 - **[To show case my skills]**
 - **[To sell myself to recruiters]**
+
+[Demo]( https://ibtisam34.github.io/myportofolio/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
