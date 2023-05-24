@@ -53,7 +53,6 @@ In this project, I built a simple HTML portofolio.
 
 [Demo]( https://ibtisam34.github.io/myportofolio/)
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
