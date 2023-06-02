@@ -397,197 +397,108 @@ section {
   text-align: center;
 }
 
-.portfolios {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 2rem;
-  margin-top: 3rem;
-}
-
-.portfolios .portfolio-item {
-  position: relative;
-  border-radius: 15px;
-}
-
-.portfolios .portfolio-item img {
-  width: 100%;
-  height: 300px;
-  object-fit: cover;
-  border-radius: 15px;
-}
-
-.portfolios .portfolio-item .hover-items {
-  width: 100%;
-  height: 100%;
-  background-color: var(--color-secondary);
-  position: absolute;
-  left: 0;
-  top: 0;
-  border-radius: 15px;
+.project {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  opacity: 0;
-  transform: scale(0);
-  transition: all 0.4s ease-in-out;
+  align-items: flex-start;
 }
-
-.portfolios .hover-items .project-info h1 {
-  font-size: 24px;
-  color: #333;
-  /* Add other styles as needed */
-}
-.portfolios .hover-items .project-info p {
-  font-size: 12px;
-  color: #c51212;
-  /* Add other styles as needed */
-}
-.portfolios .hover-items .project-info ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 10px 0;
-  display: flex;
-}
-.portfolios .hover-items .project-info li {
-  font-size: 14px;
-  border: solid;
-  color: lightblue;
+.project-image img {
+  width: 700px;
+  margin-bottom: 4%;
   margin-right: 10px;
-  /* Add other styles as needed */
 }
-.portfolios .hover-items .project-source h3 {
-  font-size: 18px;
-  color: #333;
-  /* Add other styles as needed */
-}
-.portfolios .hover-items .icons {
-  /* Add styles for the icons div */
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.project-img1 {
+  height: 300px;
 }
 
-.git-project {
-  display: flex;
-  flex-direction: row;
-  margin-bottom: 5%;
+.project-img2 {
+  height: 330px;
 }
 
-.git-button,
-.git-button1 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 5px 10px;
+.project-img3 {
+  height: 400px;
+}
+
+.project-img4 {
+  height: 400px;
+}
+.project-details1,
+.project-details2,
+.project-details3,
+.project-details4 {
+  background-color: rgb(102, 128, 54);
+  border: solid;
+}
+.project-details {
+ flex: 1;
+ margin-bottom: 10%;
+}
+
+.project-details1 {
+  width: 300px;
+  height: 300px;
+}
+
+.project-details2 {
+  width: 300px;
+  height: 330px;
+}
+.project-details3 {
+  width: 300px;
+  height: 400px;
+}
+
+.project-details4 {
+  width: 300px;
+  height: 400px;
+}
+
+.project-details1 h3 {
+  color: #524545;
+}
+
+.project-details2 h3 {
+  color: #524545;
+}
+.project-details3 h3 {
+  color: #524545;
+}
+
+.project-details4 h3 {
+  color: #524545;
+}
+.project-details h3 {
+  margin-top: 0;
+}
+.project-details p {
+  margin-bottom: 10px;
+}
+
+.project-buttons {
+  margin-bottom: 4%;
+}
+
+.project-buttons a:hover {
   background-color: #333;
   color: #fff;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-.git-button:last-child {
-  margin-right: 10px; /* Remove margin from the last button */
 }
 
-.git-button:hover {
-  background-color: #555;
-}
-.button-text {
-  margin-left: 5px;
-}
-
-.portfolios .portfolio-item .hover-items .icons .icon {
-  background-color: var(--color-primary);
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
+.Technology-list {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0 1rem;
-  cursor: pointer;
-  transition: all 0.4s ease-in-out;
+  flex-direction: row;
+  list-style-type: none;
+  padding: 0;
+  margin-top: 0;
 }
 
-.portfolios .portfolio-item .hover-items .icons .icon i {
-  font-size: 1.5rem;
-  color: var(--color-white);
-  margin: 0 1rem;
-}
-
-.portfolios .portfolio-item .hover-items .icons .icon:hover {
-  background-color: var(--color-white);
-}
-
-.portfolios .portfolio-item .hover-items .icons .icon:hover i {
-  color: var(--color-primary);
-}
-
-.portfolio-item:hover .hover-items {
-  opacity: 1;
-  transform: scale(1);
-}
-
-.blogs {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 2rem;
-  margin-top: 3rem;
-}
-
-.blogs .blog {
-  position: relative;
-  background-color: var(--color-grey-5);
-  border-radius: 5px;
-  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.1);
-  transition: all 0.4s ease-in-out;
-}
-
-.blogs .blog:hover {
-  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.3);
-  transform: translateY(-5px);
-  transition: all 0.4s ease-in-out;
-}
-
-.blogs .blog:hover img {
-  filter: grayscale(0);
-  transform: scale(1.1);
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.8);
-}
-
-.blogs .blog img {
-  width: 100%;
-  height: 300px;
-  object-fit: cover;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-  filter: grayscale(100%);
-  transition: all 0.4s ease-in-out;
-}
-
-.blogs .blog .blog-text {
-  margin-top: -7px;
-  padding: 1.1rem;
-  border-top: 8px solid var(--color-secondary);
-}
-
-.blogs .blog .blog-text h4 {
-  font-size: 1.5rem;
-  margin-bottom: 0.7rem;
-  transition: all 0.4s ease-in-out;
-  cursor: pointer;
-}
-
-.blogs .blog .blog-text h4:hover {
-  color: var(--color-secondary);
-}
-
-.blogs .blog .blog-text p {
-  color: var(--color-grey-2);
-  line-height: 2rem;
-  padding-bottom: 1rem;
+.Technology-list li {
+ margin-right: 6px;
+} 
+.project-buttons a {
+  margin-right: 10px;
+  padding: 5px 10px;
+  background-color: #4caf50;
+  color: #fff;
+  text-decoration: none;
 }
 
 .contact-content-con {
@@ -875,11 +786,6 @@ section {
     margin-top: 1rem;
   }
 
-  .blogs {
-    grid-template-columns: repeat(1, 1fr);
-    padding-bottom: 6rem;
-  }
-
   .contact-content-con {
     flex-direction: column;
   }
@@ -930,6 +836,53 @@ section {
 
   .main-title h2 .bg-text {
     font-size: 2.3rem;
+  }
+ .project {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+ }
+ .project-image img {
+  width: 100%;
+  margin-bottom: 20px;
+  margin-top: 1%;
+ }
+ .project-details1 {
+  width: 100%;
+  height: 300px;
+  margin-bottom: 30%;
+}
+
+.project-details2 {
+  width: 100%;
+  height: 330px;
+  margin-bottom: 30%;
+}
+.project-details3 {
+  width: 100%;
+  height: 400px;
+  margin-bottom: 30%;
+}
+
+.project-details4 {
+  width: 100%;
+  height: 350px;
+  margin-bottom: 30%;
+}
+  .project-details h3 {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  .project-details p {
+    font-size: 12px;
+    margin-bottom: 5px;
+  }
+  .project-details ul li {
+    font-size: 12px;
+  }
+  .project-buttons a {
+    font-size: 12px;
+    padding: 3px 8px;
   }
 }
 
